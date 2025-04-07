@@ -1,5 +1,5 @@
 <?php
-session_start(); // Start the session
+session_start(); // Start the session hjgyuhoi
 
 // Check if the user is logged in
 if (!isset($_SESSION['username'])) {

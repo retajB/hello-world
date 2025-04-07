@@ -1,6 +1,6 @@
 <?php
 session_start(); // Start the session hjgyuhoi
-
+//lamar is here
 // Check if the user is logged in
 if (!isset($_SESSION['username'])) {
     header("Location: login.html"); // Redirect to login page if not logged in

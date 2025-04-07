@@ -1,0 +1,95 @@
+<!--edit by:razan almalki-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Do It Correctly</title>
+  <link rel="icon" href="images/logoicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <header  onmouseover="animateLogo()" onmouseout="resetLogoAnimation()">
+    <img src="images/weblogo.png" alt="logo">
+
+</header>
+<button onclick="showRandomMakeupTip()">Get Makeup Tip</button>
+<hr>
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li>Skin
+            <ul class="submenu">
+                <li><a href="nd.html">Normal & Dry Skin</a></li>
+                <li><a href="os.html">Oily & Sensitive</a></li>
+            </ul>
+        </li>
+        <li>Hair
+            <ul class="submenu">
+                <li><a href="curly.html">Curly Hair</a></li>
+                <li><a href="wave.html">Wave Hair</a></li>
+            </ul>
+        </li>
+        <li>Prouduct
+            <ul class="submenu">
+                <li><a href="proudct2.html">product 1</a></li>
+                <li><a href="product.html">product 2</a></li>
+            </ul>
+
+        <li><a href="makeup2.html">Make-Up</a></li>
+        <li> <a href="news.html">News</a></li>
+        <li><a href="bagcolor.html">Color Theory</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+</nav>
+<hr>
+<main class="container"> 
+  <h1>Do It Correctly</h1>
+<h3>Welcome to Do It Correctly! This page is your ultimate guide to mastering foundation, mascara, and eyeliner application. Learn the proper techniques and step-by-step instructions to achieve flawless results. Let's dive into the world of makeup mastery together!
+  Welcome </h3>
+  <h2>Foundation</h2>
+  <div class="video-container">
+    <video class="wrong-video" width="640" height="360" controls autoplay loop muted>
+      <source src="foundtionW.MP4" type="video/mp4">
+    </video>
+    <video class="correct-video" width="640" height="360" style="display: none;" controls autoplay loop muted>
+      <source src="foundtionR.MP4" type="video/mp4">
+    </video>
+  </div>
+  <div class="fix-button-container">
+    <button class="fix-button" onclick="showCorrectVideo(this)">Fix it!</button>
+  </div>
+
+  <h2>Mascara</h2>
+  <div class="video-container">
+    <video class="wrong-video" width="640" height="360" controls autoplay loop muted>
+      <source src="mascaraW.mp4" type="video/mp4">
+    </video>
+    <video class="correct-video" width="640" height="360" style="display: none;" controls autoplay loop muted>
+      <source src="mascaraR.MP4" type="video/mp4">
+    </video>
+  </div>
+  <div class="fix-button-container">
+    <button class="fix-button" onclick="showCorrectVideo(this)">Fix it!</button>
+  </div>
+
+  <h2>Eyeliner</h2>
+  <div class="video-container">
+    <video class="wrong-video" width="640" height="360" controls autoplay loop muted>
+      <source src="eyelinerW.MP4" type="video/mp4">
+    </video>
+    <video class="correct-video" width="640" height="360" style="display: none;" controls autoplay loop muted>
+      <source src="eyelinerR.MP4" type="video/mp4">
+    </video>
+  </div>
+  <div class="fix-button-container">
+    <button class="fix-button" onclick="showCorrectVideo(this)">Fix it!</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</main>
+<hr>
+<footer>Copyright © 2023 Beauty & glow<br><a href="mailto:me@gmail.com">beautyandglow@gmail.com</a></footer>
+
+</body>
+</html>
